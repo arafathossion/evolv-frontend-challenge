@@ -1,0 +1,147 @@
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.items-center {
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+.py {
+  padding: 5px 0 10px 0 !important;
+}
+.pr {
+  padding-right: 20px;
+}
+.pb {
+  padding-bottom: 10px;
+}
+.m-0 {
+  margin: 0;
+}
+.bd {
+  border: 1px solid red;
+}
+.userDataArrow img {
+  background: #101317;
+  border-radius: 8px;
+  padding: 25px 15px;
+}
+/* .img{
+    width: 20px;
+    height: 20px;
+} */
+.singleUser {
+  /* border: 1px solid white; */
+  margin: 0px 0 30px 0;
+  padding: 20px 15px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr 2fr 3fr 1fr;
+  gap: 20px;
+  align-items: center;
+  text-align: left;
+  background-color: #1E262F;
+}
+.userIcons {
+  background: #101317;
+  border-radius: 4px;
+  padding: 1px 20px;
+  color: white;
+}
+.message img {
+  background: #36f5c7;
+  border-radius: 8px;
+  padding: 10px;
+  display: block;
+  margin: auto;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 15px 10px;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  /* margin-left: -60px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.singleToolTipContent {
+  background: #1b222a;
+  border-radius: 4.86207px;
+  margin: 5px 0;
+  padding: 5px 10px 5px 10px;
+}
+.progress {
+  margin: 10px auto;
+  padding: 0;
+  width: 100%;
+  height: 12px;
+  overflow: hidden;
+  background: #101317;
+  border-radius: 6px;
+}
+
+.bar {
+  position: relative;
+  float: left;
+  min-width: 1%;
+  height: 100%;
+  border-radius: 6.48276px;
+}
+.bar1 {
+  background: #f45c84;
+}
+.bar2 {
+  background: #03c6fa;
+}
+.bar3 {
+  background: #f0c50f;
+}
+
+.percent {
+  position: absolute;
+  top: 50%;
+  left: 103%;
+  transform: translate(0%, -50%);
+  margin: 0;
+  font-family: tahoma, arial, helvetica;
+  font-size: 10px;
+  color: #f45c84;
+}
